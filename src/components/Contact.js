@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../_css/contact.css';
+import '../_css/button.css';
 
 export default class Contact extends Component {
     constructor(props) {

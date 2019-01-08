@@ -9,6 +9,7 @@ import Home from './Home';
 import AboutUs from './AboutUs';
 import Services from './Services';
 import Contact from './Contact';
+import Clients from './Clients';
 
 export default class Main extends Component{
     constructor(props){
@@ -21,6 +22,7 @@ export default class Main extends Component{
                 <Route path="/"  component={Home} exact />
                 <Route path="/nosotros" component={AboutUs} exact />
                 <Route path="/servicios" component={Services} exact />
+                <Route path="/clientes" component={Clients} exact />
                 <Route path="/contacto" component={Contact} exact />
             </div>
         ];

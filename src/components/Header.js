@@ -35,6 +35,11 @@ export default class Header extends Component {
                             </Link>
                         </li>
                         <li>
+                            <Link to="/clientes">
+                                Clientes
+                            </Link>
+                        </li>
+                        <li>
                             <Link to="/contacto">
                                 Contacto
                             </Link>

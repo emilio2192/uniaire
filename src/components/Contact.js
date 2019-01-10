@@ -32,9 +32,9 @@ export default class Contact extends Component {
                 </div>
             </div>,
             <div className="location-container">
-                Sede Central: Mixco<br/>
-                Telefonos: 5431-2346 / 2315-8844<br/>
-                {'Correo: info@uniaire.com.gt'}
+                Sede Central: 3c B 3-11 Zona 4 de Mixco Colonia Monte verde<br/>
+                Telefonos: 5179-1935<br/>
+                {'Correo: jrodriguez@uniaire.com.gt'}
             </div>
 
 

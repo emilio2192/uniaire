@@ -24,6 +24,39 @@ export default class Header extends Component {
     expandMenu = () =>{
         this.setState({expand: !this.state.expand});
     }
+    renderList = () =>{
+        if(this.state.expand){
+            return <ul className="menu-mobile">
+                <li>
+                    <Link to="/">
+                        Inicio
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/nosotros">
+                        Nosotros
+                    </Link>
+                </li>
+                {/* <li>
+                                <Link to="/servicios">
+                                    Servicios
+                                </Link>
+                            </li>*/}
+                <li>
+                    <Link to="/clientes">
+                        Clientes
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/contacto">
+                        Contacto
+                    </Link>
+                </li>
+            </ul>
+        }else{
+            return <span></span>
+        }
+    }
     render() {
         return [
             <nav>
@@ -62,33 +95,8 @@ export default class Header extends Component {
                         <div className="expand" onClick={this.expandMenu}>
                             {this.renderMenu()}
                         </div>
-                        <ul className="menu-mobile">
-                            <li>
-                                <Link to="/">
-                                    Inicio
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/nosotros">
-                                    Nosotros
-                                </Link>
-                            </li>
-                            {/* <li>
-                                <Link to="/servicios">
-                                    Servicios
-                                </Link>
-                            </li>*/}
-                            <li>
-                                <Link to="/clientes">
-                                    Clientes
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/contacto">
-                                    Contacto
-                                </Link>
-                            </li>
-                        </ul>
+                        {this.renderList()}
+
                     </div>
                 </div>
 

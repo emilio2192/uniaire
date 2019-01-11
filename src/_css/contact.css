@@ -52,3 +52,8 @@ h1{
     font-size:20px;
     color:#a1a1a1;
 }
+@media only screen and (max-width: 731px) {
+    .form-container{
+        width:86%;
+    }
+}

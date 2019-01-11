@@ -5,35 +5,36 @@ nav {
 
 }
 
-nav > .logo{
-    float:left;
-    width:270px;
+nav > .logo {
+    float: left;
+    width: 270px;
     height: auto;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-nav > .logo > img{
-    float:left;
-    max-width:100%;
+nav > .logo > img {
+    float: left;
+    max-width: 100%;
 }
 
-nav > .container-menu{
-    width:49vw;
-    height:50px;
-    margin:0 auto;
+nav > .container-menu {
+    width: 49vw;
+    height: 50px;
+    margin: 0 auto;
 
 }
-nav > .container-menu > .menu-desktop{
-    float:left;
+
+nav > .container-menu > .menu-desktop {
+    float: left;
     list-style: none;
     margin-top: 4vh;
-    padding:0;
-    width:100%;
-    height:50px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
 
 }
 
-nav > .container-menu > .menu-desktop > li{
+nav > .container-menu > .menu-desktop > li {
     float: left;
     padding: 5px;
     width: 18%;
@@ -43,68 +44,79 @@ nav > .container-menu > .menu-desktop > li{
 }
 
 nav > .container-menu > .menu-desktop > li > a {
-    text-decoration:none;
-    color:#282c34;
-    font-weight:500;
+    text-decoration: none;
+    color: #282c34;
+    font-weight: 500;
 }
 
-nav > .container-menu > .menu-desktop > li > a:hover{
+nav > .container-menu > .menu-desktop > li > a:hover {
     font-weight: 900;
 }
-nav > .container-menu > .mobile-menu{
+
+nav > .container-menu > .mobile-menu {
     display: none;
-    float:left;
-    width:100%;
+    float: left;
+    width: 100%;
     min-height: 50px;
     height: auto;
 
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
-nav > .container-menu > .mobile-menu > .expand{
-    float:right;
-    width:auto;
-    cursor:pointer;
-    margin-top:10px;
+
+nav > .container-menu > .mobile-menu > .expand {
+    float: right;
+    width: auto;
+    cursor: pointer;
+    margin-top: 10px;
 }
-nav > .container-menu > .mobile-menu > .menu-mobile{
-    margin:0;
-    padding:0;
+
+nav > .container-menu > .mobile-menu > .menu-mobile {
+    margin: 0;
+    padding: 0;
     list-style: none;
-    float:left;
-    width:100%;
+    float: left;
+    width: 100%;
 }
-nav > .container-menu > .mobile-menu > .menu-mobile > li{
-    float:left;
-    width:100%;
-    padding-bottom:5px;
-    padding-top:5px;
-    border-bottom:1px solid #F3F3F3;
+
+nav > .container-menu > .mobile-menu > .menu-mobile > li {
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #F3F3F3;
 }
-nav > .container-menu > .mobile-menu > .menu-mobile > li > a{
-    float:left;
-    width:100%;
-    text-decoration:none;
-    color:#000;
+
+nav > .container-menu > .mobile-menu > .menu-mobile > li > a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
     font-weight: 600;
-    text-align:center;
+    text-align: center;
 }
 
 @media only screen and (max-width: 731px) {
-    #root > nav > .logo{
-        float:none;
-        margin:0 auto;
-    }
-    #root > nav > div.container-menu{
-        width:100%;
-        float:left;
-        height:auto;
-    }
-    #root > nav > div.container-menu > ul{
-        display:none;
+    #root > nav > .logo {
+        float: none;
+        margin: 0 auto;
     }
 
-    nav > .container-menu > .mobile-menu{
+    #root > nav > div.container-menu {
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+
+    #root > nav > div.container-menu > ul {
+        display: none;
+    }
+
+    nav > .container-menu > .mobile-menu {
         display: block;
     }
+
+
+
+
 }
 

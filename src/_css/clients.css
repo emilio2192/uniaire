@@ -35,3 +35,15 @@
 .grid > .item:hover{
     box-shadow: #a1a1a1 0px 0px 5px;
 }
+@media only screen and (max-width: 731px) {
+    .grid{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding:0;
+        width:80%;
+        margin: 0 auto;
+    }
+    .container-clients > .grid > .item{
+        width:100px;
+        height: 100px;
+    }
+}
